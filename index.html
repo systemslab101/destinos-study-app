@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Destinos Study App</title>
+    <script src="https://cdn.tailwindcss.com/3.4.17"></script>
+    <script src="https://cdn.jsdelivr.net/npm/lucide@0.263.0/dist/umd/lucide.min.js"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              cream: "#FFFFFF",
+              ink: "#1A1A2E",
+              muted: "#666666",
+              surface: "#F8F8F8",
+              ocean: {
+                50: "#EFF6FF",
+                100: "#DBEAFE",
+                300: "#93C5FD",
+                500: "#2563EB",
+                700: "#1E40AF",
+                800: "#1E3A8A",
+              },
+              sun: "#FBBF24",
+              success: "#16A34A",
+              danger: "#DC2626",
+              line: "#E0E0E0",
+            },
+            fontFamily: {
+              display: ["Inter", "sans-serif"],
+              body: ["'DM Sans'", "sans-serif"],
+            },
+            boxShadow: {
+              card: "0 10px 30px rgba(26, 26, 46, 0.08)",
+              soft: "0 6px 18px rgba(26, 26, 46, 0.06)",
+            },
+            backgroundImage: {
+              flash:
+                "linear-gradient(135deg, #2563EB 0%, #1E40AF 100%)",
+            },
+          },
+        },
+      };
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Inter:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      html {
+        scroll-behavior: smooth;
+      }
+
+      .flashcard {
+        perspective: 800px;
+      }
+
+      .flashcard-inner {
+        transform-style: preserve-3d;
+        transition: transform 0.5s ease;
+      }
+
+      .flashcard-inner.is-flipped {
+        transform: rotateY(180deg);
+      }
+
+      .flashcard-face {
+        backface-visibility: hidden;
+        -webkit-backface-visibility: hidden;
+      }
+
+      .flashcard-back {
+        transform: rotateY(180deg);
+      }
+
+      .progress-fill {
+        transition: width 0.5s ease;
+      }
+    </style>
+  </head>
+  <body class="bg-white font-body text-ink antialiased">
+    <div id="app"></div>
+    <script type="module" src="./app.js"></script>
+  </body>
+</html>
