@@ -117,6 +117,38 @@ const lesson2Vocabulary = [
   { id: "lesson-2-vocab-26", front: "consistir en", back: "to consist of" },
 ];
 
+const lesson3Vocabulary = [
+  { id: "lesson-3-vocab-01", front: "las llaves", back: "keys" },
+  { id: "lesson-3-vocab-02", front: "la búsqueda", back: "search" },
+  { id: "lesson-3-vocab-03", front: "la espera", back: "wait" },
+  { id: "lesson-3-vocab-04", front: "hablar", back: "to speak" },
+  { id: "lesson-3-vocab-05", front: "el tiempo", back: "time" },
+  { id: "lesson-3-vocab-06", front: "la suegra", back: "mother-in-law" },
+  { id: "lesson-3-vocab-07", front: "fascinante", back: "fascinating" },
+  { id: "lesson-3-vocab-08", front: "el barrio", back: "neighborhood" },
+  { id: "lesson-3-vocab-09", front: "pagar", back: "to pay" },
+  { id: "lesson-3-vocab-10", front: "contestar", back: "to answer" },
+  { id: "lesson-3-vocab-11", front: "conozco", back: "I know, I'm acquainted with" },
+  { id: "lesson-3-vocab-12", front: "conocer", back: "to know, to be acquainted" },
+  { id: "lesson-3-vocab-13", front: "vivir", back: "to live" },
+  { id: "lesson-3-vocab-14", front: "la única", back: "the only one" },
+  { id: "lesson-3-vocab-15", front: "la curiosidad", back: "curiosity" },
+  { id: "lesson-3-vocab-16", front: "pronto", back: "soon" },
+  { id: "lesson-3-vocab-17", front: "la estatua", back: "statue" },
+  { id: "lesson-3-vocab-18", front: "la cofradía", back: "brotherhood" },
+  { id: "lesson-3-vocab-19", front: "la Semana Santa", back: "Holy Week" },
+  { id: "lesson-3-vocab-20", front: "emocionante", back: "touching, exciting" },
+  { id: "lesson-3-vocab-21", front: "el mercado", back: "market, marketplace" },
+  { id: "lesson-3-vocab-22", front: "la barbería", back: "barber’s shop" },
+  { id: "lesson-3-vocab-23", front: "el puente", back: "bridge" },
+  { id: "lesson-3-vocab-24", front: "la calle", back: "street" },
+  { id: "lesson-3-vocab-25", front: "los pajaritos", back: "little birds" },
+  { id: "lesson-3-vocab-26", front: "nacer", back: "to be born" },
+  { id: "lesson-3-vocab-27", front: "preciosa/o", back: "beautiful" },
+  { id: "lesson-3-vocab-28", front: "la cultura", back: "culture" },
+  { id: "lesson-3-vocab-29", front: "el país", back: "country" },
+];
+
 const customLessonContent = {
   1: {
     flashcards: lesson1Vocabulary,
@@ -124,6 +156,9 @@ const customLessonContent = {
   2: {
     flashcards: lesson2Vocabulary,
   },
+  3: {
+    flashcards: lesson3Vocabulary,
+  }
 };
 
 const app = document.querySelector("#app");
