@@ -3,176 +3,1416 @@
     "1": {
       "title": "La carta",
       "vocabulary": [
-        { "front": "perdóname", "back": "forgive me" },
-        { "front": "una carta", "back": "a letter" },
-        { "front": "nunca", "back": "never" },
-        { "front": "¿su hermano?", "back": "your brother?" },
-        { "front": "vive", "back": "lives" },
-        { "front": "¿Fue largo el viaje?", "back": "Was it a long trip?" },
-        { "front": "muy mal", "back": "very bad / very ill" },
-        { "front": "Pasa.", "back": "Come in." },
-        { "front": "Te estaba esperando.", "back": "I was waiting for you." },
-        { "front": "Tus hijos están preocupados.", "back": "Your children are worried." },
-        { "front": "la hacienda", "back": "large house on a ranch" },
-        { "front": "los viejos amigos", "back": "old friends" },
-        { "front": "un amigo viejo", "back": "an elderly friend" },
-        { "front": "llamar", "back": "to call" },
-        { "front": "el abogado / la abogada", "back": "lawyer" },
-        { "front": "importante", "back": "important" },
-        { "front": "el cliente / la clienta", "back": "client" },
-        { "front": "el patriarca", "back": "patriarch" },
-        { "front": "don", "back": "male title of respect" },
-        { "front": "murió (morir)", "back": "died (to die)" },
-        { "front": "muerta(o)", "back": "dead" },
-        { "front": "afuera", "back": "outside" },
-        { "front": "el símbolo", "back": "the sign" },
-        { "front": "el secreto", "back": "the secret" }
+        {
+          "front": "perdóname",
+          "back": "forgive me"
+        },
+        {
+          "front": "una carta",
+          "back": "a letter"
+        },
+        {
+          "front": "nunca",
+          "back": "never"
+        },
+        {
+          "front": "¿su hermano?",
+          "back": "your brother?"
+        },
+        {
+          "front": "vive",
+          "back": "lives"
+        },
+        {
+          "front": "¿Fue largo el viaje?",
+          "back": "Was it a long trip?"
+        },
+        {
+          "front": "muy mal",
+          "back": "very bad / very ill"
+        },
+        {
+          "front": "Pasa.",
+          "back": "Come in."
+        },
+        {
+          "front": "Te estaba esperando.",
+          "back": "I was waiting for you."
+        },
+        {
+          "front": "Tus hijos están preocupados.",
+          "back": "Your children are worried."
+        },
+        {
+          "front": "la hacienda",
+          "back": "large house on a ranch"
+        },
+        {
+          "front": "los viejos amigos",
+          "back": "old friends"
+        },
+        {
+          "front": "un amigo viejo",
+          "back": "an elderly friend"
+        },
+        {
+          "front": "llamar",
+          "back": "to call"
+        },
+        {
+          "front": "el abogado / la abogada",
+          "back": "lawyer"
+        },
+        {
+          "front": "importante",
+          "back": "important"
+        },
+        {
+          "front": "el cliente / la clienta",
+          "back": "client"
+        },
+        {
+          "front": "el patriarca",
+          "back": "patriarch"
+        },
+        {
+          "front": "don",
+          "back": "male title of respect"
+        },
+        {
+          "front": "murió (morir)",
+          "back": "died (to die)"
+        },
+        {
+          "front": "muerta(o)",
+          "back": "dead"
+        },
+        {
+          "front": "afuera",
+          "back": "outside"
+        },
+        {
+          "front": "el símbolo",
+          "back": "the sign"
+        },
+        {
+          "front": "el secreto",
+          "back": "the secret"
+        }
       ]
     },
     "2": {
       "title": "El secreto",
       "vocabulary": [
-        { "front": "la noticia", "back": "news" },
-        { "front": "veremos", "back": "we will see" },
-        { "front": "mal", "back": "bad" },
-        { "front": "la familia", "back": "family" },
-        { "front": "estar muerto", "back": "to be dead" },
-        { "front": "perdóname", "back": "forgive me" },
-        { "front": "la mañana", "back": "morning" },
-        { "front": "reparar", "back": "to repair" },
-        { "front": "los miembros", "back": "members" },
-        { "front": "los hijos", "back": "sons, children" },
-        { "front": "las hijas", "back": "daughters" },
-        { "front": "la carta", "back": "letter" },
-        { "front": "el esposo", "back": "husband" },
-        { "front": "la esposa", "back": "wife" },
-        { "front": "un misterio", "back": "a mystery" },
-        { "front": "correcto", "back": "correct" },
-        { "front": "la ciudad", "back": "city" },
-        { "front": "una canción", "back": "a song" },
-        { "front": "la telaraña", "back": "spider web" },
-        { "front": "columpiarse", "back": "to swing" },
-        { "front": "los tíos", "back": "uncles, uncles and aunts" },
-        { "front": "la visita", "back": "visitor, visit" },
-        { "front": "suéltame", "back": "let go of me" },
-        { "front": "atentamente", "back": "attentively" },
-        { "front": "la amistad", "back": "friendship" },
-        { "front": "consistir en", "back": "to consist of" }
+        {
+          "front": "la noticia",
+          "back": "news"
+        },
+        {
+          "front": "veremos",
+          "back": "we will see"
+        },
+        {
+          "front": "mal",
+          "back": "bad"
+        },
+        {
+          "front": "la familia",
+          "back": "family"
+        },
+        {
+          "front": "estar muerto",
+          "back": "to be dead"
+        },
+        {
+          "front": "perdóname",
+          "back": "forgive me"
+        },
+        {
+          "front": "la mañana",
+          "back": "morning"
+        },
+        {
+          "front": "reparar",
+          "back": "to repair"
+        },
+        {
+          "front": "los miembros",
+          "back": "members"
+        },
+        {
+          "front": "los hijos",
+          "back": "sons, children"
+        },
+        {
+          "front": "las hijas",
+          "back": "daughters"
+        },
+        {
+          "front": "la carta",
+          "back": "letter"
+        },
+        {
+          "front": "el esposo",
+          "back": "husband"
+        },
+        {
+          "front": "la esposa",
+          "back": "wife"
+        },
+        {
+          "front": "un misterio",
+          "back": "a mystery"
+        },
+        {
+          "front": "correcto",
+          "back": "correct"
+        },
+        {
+          "front": "la ciudad",
+          "back": "city"
+        },
+        {
+          "front": "una canción",
+          "back": "a song"
+        },
+        {
+          "front": "la telaraña",
+          "back": "spider web"
+        },
+        {
+          "front": "columpiarse",
+          "back": "to swing"
+        },
+        {
+          "front": "los tíos",
+          "back": "uncles, uncles and aunts"
+        },
+        {
+          "front": "la visita",
+          "back": "visitor, visit"
+        },
+        {
+          "front": "suéltame",
+          "back": "let go of me"
+        },
+        {
+          "front": "atentamente",
+          "back": "attentively"
+        },
+        {
+          "front": "la amistad",
+          "back": "friendship"
+        },
+        {
+          "front": "consistir en",
+          "back": "to consist of"
+        }
       ]
     },
     "3": {
       "title": "El comienzo",
       "vocabulary": [
-        { "front": "las llaves", "back": "keys" },
-        { "front": "la búsqueda", "back": "search" },
-        { "front": "la espera", "back": "wait" },
-        { "front": "hablar", "back": "to speak" },
-        { "front": "el tiempo", "back": "time" },
-        { "front": "la suegra", "back": "mother-in-law" },
-        { "front": "fascinante", "back": "fascinating" },
-        { "front": "el barrio", "back": "neighborhood" },
-        { "front": "pagar", "back": "to pay" },
-        { "front": "contestar", "back": "to answer" },
-        { "front": "conozco", "back": "I know, I'm acquainted with" },
-        { "front": "conocer", "back": "to know, to be acquainted" },
-        { "front": "vivir", "back": "to live" },
-        { "front": "la única", "back": "the only one" },
-        { "front": "la curiosidad", "back": "curiosity" },
-        { "front": "pronto", "back": "soon" },
-        { "front": "la estatua", "back": "statue" },
-        { "front": "la cofradía", "back": "brotherhood" },
-        { "front": "la Semana Santa", "back": "Holy Week" },
-        { "front": "emocionante", "back": "touching, exciting" },
-        { "front": "el mercado", "back": "market, marketplace" },
-        { "front": "la barbería", "back": "barber's shop" },
-        { "front": "el puente", "back": "bridge" },
-        { "front": "la calle", "back": "street" },
-        { "front": "los pajaritos", "back": "little birds" },
-        { "front": "nacer", "back": "to be born" },
-        { "front": "preciosa/o", "back": "beautiful" },
-        { "front": "la cultura", "back": "culture" },
-        { "front": "el país", "back": "country" }
+        {
+          "front": "las llaves",
+          "back": "keys"
+        },
+        {
+          "front": "la búsqueda",
+          "back": "search"
+        },
+        {
+          "front": "la espera",
+          "back": "wait"
+        },
+        {
+          "front": "hablar",
+          "back": "to speak"
+        },
+        {
+          "front": "el tiempo",
+          "back": "time"
+        },
+        {
+          "front": "la suegra",
+          "back": "mother-in-law"
+        },
+        {
+          "front": "fascinante",
+          "back": "fascinating"
+        },
+        {
+          "front": "el barrio",
+          "back": "neighborhood"
+        },
+        {
+          "front": "pagar",
+          "back": "to pay"
+        },
+        {
+          "front": "contestar",
+          "back": "to answer"
+        },
+        {
+          "front": "conozco",
+          "back": "I know, I'm acquainted with"
+        },
+        {
+          "front": "conocer",
+          "back": "to know, to be acquainted"
+        },
+        {
+          "front": "vivir",
+          "back": "to live"
+        },
+        {
+          "front": "la única",
+          "back": "the only one"
+        },
+        {
+          "front": "la curiosidad",
+          "back": "curiosity"
+        },
+        {
+          "front": "pronto",
+          "back": "soon"
+        },
+        {
+          "front": "la estatua",
+          "back": "statue"
+        },
+        {
+          "front": "la cofradía",
+          "back": "brotherhood"
+        },
+        {
+          "front": "la Semana Santa",
+          "back": "Holy Week"
+        },
+        {
+          "front": "emocionante",
+          "back": "touching, exciting"
+        },
+        {
+          "front": "el mercado",
+          "back": "market, marketplace"
+        },
+        {
+          "front": "la barbería",
+          "back": "barber's shop"
+        },
+        {
+          "front": "el puente",
+          "back": "bridge"
+        },
+        {
+          "front": "la calle",
+          "back": "street"
+        },
+        {
+          "front": "los pajaritos",
+          "back": "little birds"
+        },
+        {
+          "front": "nacer",
+          "back": "to be born"
+        },
+        {
+          "front": "preciosa/o",
+          "back": "beautiful"
+        },
+        {
+          "front": "la cultura",
+          "back": "culture"
+        },
+        {
+          "front": "el país",
+          "back": "country"
+        }
       ]
     },
     "4": {
       "title": "Perdido",
       "vocabulary": [
-        { "front": "las ciencias naturales", "back": "natural sciences" },
-        { "front": "la educación física", "back": "physical education" },
-        { "front": "nunca", "back": "never" },
-        { "front": "jamás", "back": "never" },
-        { "front": "el jerez (el vino fino)", "back": "sherry wine (fine wine)" },
-        { "front": "pasado mañana", "back": "the day after tomorrow" },
-        { "front": "el guía turístico", "back": "the tourist guide" },
-        { "front": "la aceituna", "back": "olive" },
-        { "front": "sobresaliente", "back": "outstanding" },
-        { "front": "notable", "back": "notable" },
-        { "front": "suficiente", "back": "sufficient" },
-        { "front": "insuficiente", "back": "insufficient" },
-        { "front": "deficiente", "back": "deficient, failing" },
-        { "front": "la habitación", "back": "room" },
-        { "front": "disfrutes", "back": "(may you) enjoy" },
-        { "front": "disfrutar", "back": "to enjoy" },
-        { "front": "la estancia", "back": "stay" },
-        { "front": "el mensaje", "back": "message" },
-        { "front": "el placer", "back": "pleasure" },
-        { "front": "la materia (colegio)", "back": "subject (school)" },
-        { "front": "el grado (colegio)", "back": "grade (school)" },
-        { "front": "el loro", "back": "parrot" },
-        { "front": "la tortuga", "back": "turtle" },
-        { "front": "el gato", "back": "cat" },
-        { "front": "tropical", "back": "tropical" },
-        { "front": "la recomendación", "back": "recommendation" },
-        { "front": "la asignatura", "back": "subject / course of study" },
-        { "front": "favorita(o)", "back": "favorite" },
-        { "front": "el tren", "back": "train" }
+        {
+          "front": "las ciencias naturales",
+          "back": "natural sciences"
+        },
+        {
+          "front": "la educación física",
+          "back": "physical education"
+        },
+        {
+          "front": "nunca",
+          "back": "never"
+        },
+        {
+          "front": "jamás",
+          "back": "never"
+        },
+        {
+          "front": "el jerez (el vino fino)",
+          "back": "sherry wine (fine wine)"
+        },
+        {
+          "front": "pasado mañana",
+          "back": "the day after tomorrow"
+        },
+        {
+          "front": "el guía turístico",
+          "back": "the tourist guide"
+        },
+        {
+          "front": "la aceituna",
+          "back": "olive"
+        },
+        {
+          "front": "sobresaliente",
+          "back": "outstanding"
+        },
+        {
+          "front": "notable",
+          "back": "notable"
+        },
+        {
+          "front": "suficiente",
+          "back": "sufficient"
+        },
+        {
+          "front": "insuficiente",
+          "back": "insufficient"
+        },
+        {
+          "front": "deficiente",
+          "back": "deficient, failing"
+        },
+        {
+          "front": "la habitación",
+          "back": "room"
+        },
+        {
+          "front": "disfrutes",
+          "back": "(may you) enjoy"
+        },
+        {
+          "front": "disfrutar",
+          "back": "to enjoy"
+        },
+        {
+          "front": "la estancia",
+          "back": "stay"
+        },
+        {
+          "front": "el mensaje",
+          "back": "message"
+        },
+        {
+          "front": "el placer",
+          "back": "pleasure"
+        },
+        {
+          "front": "la materia (colegio)",
+          "back": "subject (school)"
+        },
+        {
+          "front": "el grado (colegio)",
+          "back": "grade (school)"
+        },
+        {
+          "front": "el loro",
+          "back": "parrot"
+        },
+        {
+          "front": "la tortuga",
+          "back": "turtle"
+        },
+        {
+          "front": "el gato",
+          "back": "cat"
+        },
+        {
+          "front": "tropical",
+          "back": "tropical"
+        },
+        {
+          "front": "la recomendación",
+          "back": "recommendation"
+        },
+        {
+          "front": "la asignatura",
+          "back": "subject / course of study"
+        },
+        {
+          "front": "favorita(o)",
+          "back": "favorite"
+        },
+        {
+          "front": "el tren",
+          "back": "train"
+        }
       ]
     },
     "5": {
       "title": "La despedida",
       "vocabulary": [
-        { "front": "la catedral", "back": "cathedral" },
-        { "front": "desierto/a", "back": "deserted" },
-        { "front": "también", "back": "also" },
-        { "front": "allí", "back": "there" },
-        { "front": "viven", "back": "they live" },
-        { "front": "histórico", "back": "historic" },
-        { "front": "la calle", "back": "street" },
-        { "front": "la estación", "back": "station" },
-        { "front": "(el) lunes", "back": "Monday" },
-        { "front": "tienen que ir", "back": "you have to go" },
-        { "front": "la época árabe", "back": "the Arabic (Moorish) period" },
-        { "front": "correr", "back": "to run" },
-        { "front": "(el) jueves", "back": "Thursday" },
-        { "front": "(el) domingo", "back": "Sunday" },
-        { "front": "durmiendo", "back": "sleeping" },
-        { "front": "buena suerte", "back": "good luck" },
-        { "front": "¿cuántos?", "back": "how many?" },
-        { "front": "este", "back": "this" },
-        { "front": "que yo vaya, que usted vaya", "back": "that I go, that you go" },
-        { "front": "escapar", "back": "to escape" },
-        { "front": "¿has visto?", "back": "have you seen?" },
-        { "front": "alto", "back": "tall" },
-        { "front": "decir", "back": "to say" },
-        { "front": "de la mañana", "back": "in the morning (a.m.)" },
-        { "front": "perder", "back": "to lose" },
-        { "front": "el siguiente", "back": "the following" },
-        { "front": "(el) martes", "back": "Tuesday" },
-        { "front": "el ruido", "back": "noise" },
-        { "front": "busquemos", "back": "let's look for" },
-        { "front": "(el) miércoles", "back": "Wednesday" },
-        { "front": "(el) sábado", "back": "Saturday" },
-        { "front": "el nombre", "back": "name" },
-        { "front": "el perro, el perrito", "back": "dog, little dog" },
-        { "front": "las once y media", "back": "eleven thirty" },
-        { "front": "vale", "back": "okay" },
-        { "front": "los Estados Unidos", "back": "USA" },
-        { "front": "personalmente", "back": "personally" },
-        { "front": "el ciego", "back": "blind man" },
-        { "front": "la lotería", "back": "lottery" },
-        { "front": "el futuro", "back": "future" },
-        { "front": "negro", "back": "black" },
-        { "front": "amistoso", "back": "friendly" }
+        {
+          "front": "la catedral",
+          "back": "cathedral"
+        },
+        {
+          "front": "desierto/a",
+          "back": "deserted"
+        },
+        {
+          "front": "también",
+          "back": "also"
+        },
+        {
+          "front": "allí",
+          "back": "there"
+        },
+        {
+          "front": "viven",
+          "back": "they live"
+        },
+        {
+          "front": "histórico",
+          "back": "historic"
+        },
+        {
+          "front": "la calle",
+          "back": "street"
+        },
+        {
+          "front": "la estación",
+          "back": "station"
+        },
+        {
+          "front": "(el) lunes",
+          "back": "Monday"
+        },
+        {
+          "front": "tienen que ir",
+          "back": "you have to go"
+        },
+        {
+          "front": "la época árabe",
+          "back": "the Arabic (Moorish) period"
+        },
+        {
+          "front": "correr",
+          "back": "to run"
+        },
+        {
+          "front": "(el) jueves",
+          "back": "Thursday"
+        },
+        {
+          "front": "(el) domingo",
+          "back": "Sunday"
+        },
+        {
+          "front": "durmiendo",
+          "back": "sleeping"
+        },
+        {
+          "front": "buena suerte",
+          "back": "good luck"
+        },
+        {
+          "front": "¿cuántos?",
+          "back": "how many?"
+        },
+        {
+          "front": "este",
+          "back": "this"
+        },
+        {
+          "front": "que yo vaya, que usted vaya",
+          "back": "that I go, that you go"
+        },
+        {
+          "front": "escapar",
+          "back": "to escape"
+        },
+        {
+          "front": "¿has visto?",
+          "back": "have you seen?"
+        },
+        {
+          "front": "alto",
+          "back": "tall"
+        },
+        {
+          "front": "decir",
+          "back": "to say"
+        },
+        {
+          "front": "de la mañana",
+          "back": "in the morning (a.m.)"
+        },
+        {
+          "front": "perder",
+          "back": "to lose"
+        },
+        {
+          "front": "el siguiente",
+          "back": "the following"
+        },
+        {
+          "front": "(el) martes",
+          "back": "Tuesday"
+        },
+        {
+          "front": "el ruido",
+          "back": "noise"
+        },
+        {
+          "front": "busquemos",
+          "back": "let's look for"
+        },
+        {
+          "front": "(el) miércoles",
+          "back": "Wednesday"
+        },
+        {
+          "front": "(el) sábado",
+          "back": "Saturday"
+        },
+        {
+          "front": "el nombre",
+          "back": "name"
+        },
+        {
+          "front": "el perro, el perrito",
+          "back": "dog, little dog"
+        },
+        {
+          "front": "las once y media",
+          "back": "eleven thirty"
+        },
+        {
+          "front": "vale",
+          "back": "okay"
+        },
+        {
+          "front": "los Estados Unidos",
+          "back": "USA"
+        },
+        {
+          "front": "personalmente",
+          "back": "personally"
+        },
+        {
+          "front": "el ciego",
+          "back": "blind man"
+        },
+        {
+          "front": "la lotería",
+          "back": "lottery"
+        },
+        {
+          "front": "el futuro",
+          "back": "future"
+        },
+        {
+          "front": "negro",
+          "back": "black"
+        },
+        {
+          "front": "amistoso",
+          "back": "friendly"
+        }
+      ]
+    },
+    "6": {
+      "title": "¿Maestra?",
+      "vocabulary": [
+        {
+          "front": "llegar",
+          "back": "to arrive"
+        },
+        {
+          "front": "qué lata",
+          "back": "what a problem"
+        },
+        {
+          "front": "no sé",
+          "back": "I do not know"
+        },
+        {
+          "front": "la dirección",
+          "back": "direction, address"
+        },
+        {
+          "front": "la cerveza",
+          "back": "beer"
+        },
+        {
+          "front": "el vino",
+          "back": "wine"
+        },
+        {
+          "front": "el reportaje",
+          "back": "report"
+        },
+        {
+          "front": "realmente",
+          "back": "really, actually"
+        },
+        {
+          "front": "prefiere",
+          "back": "he/she prefers"
+        },
+        {
+          "front": "el gusto",
+          "back": "preference, taste"
+        },
+        {
+          "front": "nuevo/a",
+          "back": "new"
+        },
+        {
+          "front": "saber",
+          "back": "to know"
+        },
+        {
+          "front": "ir",
+          "back": "to go"
+        },
+        {
+          "front": "fui",
+          "back": "I went"
+        },
+        {
+          "front": "el viaje",
+          "back": "trip"
+        },
+        {
+          "front": "la ganadora",
+          "back": "winner (female)"
+        },
+        {
+          "front": "la Guerra Civil española",
+          "back": "the civil war of Spain"
+        },
+        {
+          "front": "conoce usted",
+          "back": "do you know"
+        },
+        {
+          "front": "volver",
+          "back": "to come back"
+        },
+        {
+          "front": "gravemente enfermo",
+          "back": "seriously ill"
+        },
+        {
+          "front": "¡Qué interesante!",
+          "back": "How interesting!"
+        },
+        {
+          "front": "la tortilla española",
+          "back": "Spanish omelet"
+        },
+        {
+          "front": "dijo",
+          "back": "he/she said"
+        },
+        {
+          "front": "la paella",
+          "back": "paella (Spanish rice dish)"
+        },
+        {
+          "front": "celebrar",
+          "back": "to celebrate"
+        },
+        {
+          "front": "el compartimiento",
+          "back": "compartment (train)"
+        },
+        {
+          "front": "el bocadillo",
+          "back": "snack"
+        },
+        {
+          "front": "a propósito",
+          "back": "by the way"
+        },
+        {
+          "front": "rápidamente",
+          "back": "quickly"
+        },
+        {
+          "front": "quedarse",
+          "back": "to remain"
+        },
+        {
+          "front": "alojarse",
+          "back": "to lodge oneself"
+        },
+        {
+          "front": "el caballero",
+          "back": "gentleman"
+        },
+        {
+          "front": "la primaria",
+          "back": "primary school"
+        }
+      ]
+    },
+    "7": {
+      "title": "La cartera",
+      "vocabulary": [
+        {
+          "front": "el rey",
+          "back": "king"
+        },
+        {
+          "front": "la cartera",
+          "back": "pocketbook, wallet"
+        },
+        {
+          "front": "la fuente",
+          "back": "fountain"
+        },
+        {
+          "front": "cosmopolita",
+          "back": "cosmopolitan"
+        },
+        {
+          "front": "firmar",
+          "back": "to sign"
+        },
+        {
+          "front": "tonta",
+          "back": "silly, foolish"
+        },
+        {
+          "front": "ojalá",
+          "back": "I wish, hopefully"
+        },
+        {
+          "front": "la ropa",
+          "back": "clothes"
+        },
+        {
+          "front": "los suéteres",
+          "back": "sweaters"
+        },
+        {
+          "front": "el vestido",
+          "back": "dress"
+        },
+        {
+          "front": "las medias",
+          "back": "stockings"
+        },
+        {
+          "front": "la camisa",
+          "back": "shirt"
+        },
+        {
+          "front": "los calcetines",
+          "back": "socks"
+        },
+        {
+          "front": "creo",
+          "back": "I believe"
+        },
+        {
+          "front": "el centro",
+          "back": "center"
+        },
+        {
+          "front": "bella",
+          "back": "beautiful"
+        },
+        {
+          "front": "permitir",
+          "back": "to permit"
+        },
+        {
+          "front": "acompañar",
+          "back": "to accompany"
+        },
+        {
+          "front": "la chaqueta",
+          "back": "jacket"
+        },
+        {
+          "front": "el jersey",
+          "back": "jersey"
+        },
+        {
+          "front": "la política",
+          "back": "politics"
+        },
+        {
+          "front": "la monarquía",
+          "back": "monarchy"
+        },
+        {
+          "front": "la plaza",
+          "back": "public square"
+        },
+        {
+          "front": "el reportero",
+          "back": "reporter"
+        },
+        {
+          "front": "las blusas",
+          "back": "blouses"
+        },
+        {
+          "front": "la falda",
+          "back": "skirt"
+        },
+        {
+          "front": "los zapatos",
+          "back": "shoes"
+        },
+        {
+          "front": "los pantalones",
+          "back": "pants"
+        },
+        {
+          "front": "la camiseta",
+          "back": "T-shirt"
+        },
+        {
+          "front": "dejé",
+          "back": "I left"
+        },
+        {
+          "front": "los bulevares",
+          "back": "boulevards"
+        },
+        {
+          "front": "el pasaporte",
+          "back": "passport"
+        },
+        {
+          "front": "el bolígrafo",
+          "back": "ballpoint pen"
+        },
+        {
+          "front": "la corbata",
+          "back": "tie"
+        },
+        {
+          "front": "la bufanda",
+          "back": "scarf"
+        }
+      ]
+    },
+    "8": {
+      "title": "El encuentro",
+      "vocabulary": [
+        {
+          "front": "tanto gusto",
+          "back": "nice to meet you"
+        },
+        {
+          "front": "¡Siéntese!",
+          "back": "Sit down!"
+        },
+        {
+          "front": "mucho gusto",
+          "back": "nice to meet you"
+        },
+        {
+          "front": "los edificios",
+          "back": "buildings"
+        },
+        {
+          "front": "prestar",
+          "back": "to lend"
+        },
+        {
+          "front": "después de un momento",
+          "back": "after a moment"
+        },
+        {
+          "front": "la historia",
+          "back": "story, history"
+        },
+        {
+          "front": "descubrir",
+          "back": "to discover"
+        },
+        {
+          "front": "¡Vamos!",
+          "back": "Let’s go!"
+        },
+        {
+          "front": "mandar",
+          "back": "to order, to send"
+        },
+        {
+          "front": "encantar",
+          "back": "to charm"
+        },
+        {
+          "front": "bajar en un segundo",
+          "back": "to come down in a second"
+        },
+        {
+          "front": "esperando",
+          "back": "waiting"
+        },
+        {
+          "front": "salir",
+          "back": "to get out"
+        },
+        {
+          "front": "exhausta",
+          "back": "exhausted"
+        },
+        {
+          "front": "horrible",
+          "back": "horrible"
+        },
+        {
+          "front": "la capital",
+          "back": "capital (city)"
+        },
+        {
+          "front": "impresionante",
+          "back": "impressive"
+        },
+        {
+          "front": "finalmente",
+          "back": "finally"
+        },
+        {
+          "front": "muy amable",
+          "back": "very nice, very kind"
+        },
+        {
+          "front": "contarme",
+          "back": "to tell me"
+        },
+        {
+          "front": "atractiva",
+          "back": "attractive"
+        },
+        {
+          "front": "ofrecer",
+          "back": "to offer"
+        },
+        {
+          "front": "buscando",
+          "back": "looking for"
+        },
+        {
+          "front": "la intención",
+          "back": "intention"
+        },
+        {
+          "front": "la cocinera",
+          "back": "cook, chef"
+        },
+        {
+          "front": "regresar",
+          "back": "to come back"
+        },
+        {
+          "front": "el coche",
+          "back": "car"
+        },
+        {
+          "front": "dejar",
+          "back": "to leave"
+        },
+        {
+          "front": "el certificado de nacimiento",
+          "back": "birth certificate"
+        },
+        {
+          "front": "simpático",
+          "back": "nice, likeable"
+        },
+        {
+          "front": "la separación",
+          "back": "separation"
+        }
+      ]
+    },
+    "9": {
+      "title": "Estaciones",
+      "vocabulary": [
+        {
+          "front": "morado",
+          "back": "purple"
+        },
+        {
+          "front": "verde",
+          "back": "green"
+        },
+        {
+          "front": "el telegrama",
+          "back": "telegram"
+        },
+        {
+          "front": "mientras tanto",
+          "back": "in the meantime"
+        },
+        {
+          "front": "las frutas",
+          "back": "fruits"
+        },
+        {
+          "front": "frescas",
+          "back": "fresh"
+        },
+        {
+          "front": "azul",
+          "back": "blue"
+        },
+        {
+          "front": "blanco con diferentes colores",
+          "back": "white with different colors"
+        },
+        {
+          "front": "el invierno",
+          "back": "winter"
+        },
+        {
+          "front": "la primavera",
+          "back": "spring"
+        },
+        {
+          "front": "rojo",
+          "back": "red"
+        },
+        {
+          "front": "La vida continúa",
+          "back": "life goes on"
+        },
+        {
+          "front": "la rutina",
+          "back": "routine"
+        },
+        {
+          "front": "las verduras",
+          "back": "vegetables"
+        },
+        {
+          "front": "la última",
+          "back": "the last one"
+        },
+        {
+          "front": "el metro",
+          "back": "meter, subway"
+        },
+        {
+          "front": "amarillo",
+          "back": "yellow"
+        },
+        {
+          "front": "lo pasé tan bien",
+          "back": "I had such a good time"
+        },
+        {
+          "front": "hacer preparativos",
+          "back": "to make arrangements"
+        },
+        {
+          "front": "serás",
+          "back": "you will be"
+        },
+        {
+          "front": "allá",
+          "back": "over there"
+        },
+        {
+          "front": "me hizo un gran favor",
+          "back": "you (he/she) did me a big favor"
+        },
+        {
+          "front": "de pronto",
+          "back": "suddenly"
+        },
+        {
+          "front": "por adelante",
+          "back": "ahead"
+        },
+        {
+          "front": "coger la falda",
+          "back": "to take hold of the skirt"
+        },
+        {
+          "front": "las palmadas",
+          "back": "pats, slaps"
+        },
+        {
+          "front": "olé",
+          "back": "cheer at the bull fight"
+        },
+        {
+          "front": "cariño",
+          "back": "sweetheart"
+        },
+        {
+          "front": "referirse a",
+          "back": "to refer to"
+        },
+        {
+          "front": "cambiarse de ropa",
+          "back": "to change one’s clothes"
+        },
+        {
+          "front": "una noche de otoño",
+          "back": "an autumn night"
+        },
+        {
+          "front": "antes de",
+          "back": "before"
+        },
+        {
+          "front": "pedir un taxi",
+          "back": "to ask for a taxi"
+        },
+        {
+          "front": "parecer",
+          "back": "to look like, to seem"
+        },
+        {
+          "front": "el kiosco",
+          "back": "lottery kiosk, newspaper stand"
+        },
+        {
+          "front": "las tunas",
+          "back": "student musical group"
+        }
+      ]
+    },
+    "10": {
+      "title": "Cuadros",
+      "vocabulary": [
+        {
+          "front": "guapo(a)",
+          "back": "good looking"
+        },
+        {
+          "front": "los rasgos físicos",
+          "back": "physical features"
+        },
+        {
+          "front": "distinguir",
+          "back": "to distinguish"
+        },
+        {
+          "front": "aquí está",
+          "back": "here it is"
+        },
+        {
+          "front": "bajo(a)",
+          "back": "short"
+        },
+        {
+          "front": "comenzar",
+          "back": "to start"
+        },
+        {
+          "front": "el retrato",
+          "back": "picture"
+        },
+        {
+          "front": "los temas",
+          "back": "themes"
+        },
+        {
+          "front": "las escenas de",
+          "back": "scenes of"
+        },
+        {
+          "front": "los santos",
+          "back": "saints"
+        },
+        {
+          "front": "el mismo Picasso",
+          "back": "Picasso himself"
+        },
+        {
+          "front": "el siglo",
+          "back": "century"
+        },
+        {
+          "front": "la obra de arte",
+          "back": "work of art"
+        },
+        {
+          "front": "la figura",
+          "back": "figure"
+        },
+        {
+          "front": "alto(a)",
+          "back": "tall"
+        },
+        {
+          "front": "el ojo",
+          "back": "eye"
+        },
+        {
+          "front": "grotesco(a)",
+          "back": "grotesque"
+        },
+        {
+          "front": "neoclásico(a)",
+          "back": "neoclassic"
+        },
+        {
+          "front": "medioeval",
+          "back": "medieval"
+        },
+        {
+          "front": "la barba",
+          "back": "beard"
+        },
+        {
+          "front": "gordita(o)",
+          "back": "fatty"
+        },
+        {
+          "front": "bonita(o)",
+          "back": "pretty"
+        },
+        {
+          "front": "el período",
+          "back": "period"
+        },
+        {
+          "front": "estupenda(o)",
+          "back": "stupendous"
+        },
+        {
+          "front": "expresivo(a)",
+          "back": "expressive"
+        },
+        {
+          "front": "feo(a)",
+          "back": "ugly"
+        },
+        {
+          "front": "la realidad",
+          "back": "reality"
+        },
+        {
+          "front": "la duda",
+          "back": "doubt"
+        },
+        {
+          "front": "persistente",
+          "back": "persistent"
+        },
+        {
+          "front": "la experiencia",
+          "back": "experience"
+        },
+        {
+          "front": "el corazón",
+          "back": "heart"
+        },
+        {
+          "front": "el museo",
+          "back": "museum"
+        },
+        {
+          "front": "las paredes",
+          "back": "walls"
+        },
+        {
+          "front": "el novio",
+          "back": "fiancé"
+        },
+        {
+          "front": "la novia",
+          "back": "fiancée"
+        },
+        {
+          "front": "típico(a)",
+          "back": "typical"
+        },
+        {
+          "front": "pintar",
+          "back": "to paint"
+        }
+      ]
+    },
+    "11": {
+      "title": "La demora",
+      "vocabulary": [
+        {
+          "front": "el aeropuerto",
+          "back": "airport"
+        },
+        {
+          "front": "la cuenta",
+          "back": "bill"
+        },
+        {
+          "front": "ahora",
+          "back": "now"
+        },
+        {
+          "front": "la siesta",
+          "back": "nap"
+        },
+        {
+          "front": "la tragedia",
+          "back": "tragedy"
+        },
+        {
+          "front": "el vuelo",
+          "back": "flight"
+        },
+        {
+          "front": "la demora",
+          "back": "delay"
+        },
+        {
+          "front": "estar cansada(o)",
+          "back": "to be tired"
+        },
+        {
+          "front": "la nacionalidad",
+          "back": "citizenship"
+        },
+        {
+          "front": "la agencia de viajes",
+          "back": "travel agency"
+        },
+        {
+          "front": "el sueño",
+          "back": "the dream"
+        },
+        {
+          "front": "subir a",
+          "back": "to go up"
+        },
+        {
+          "front": "soñar (ue) con",
+          "back": "to dream of, about"
+        },
+        {
+          "front": "enterarse de",
+          "back": "to find out about"
+        },
+        {
+          "front": "intentar convencer",
+          "back": "to try to convince"
+        },
+        {
+          "front": "casarse de nuevo",
+          "back": "to remarry, to get married again"
+        },
+        {
+          "front": "un desafío",
+          "back": "a challenge"
+        }
       ]
     }
   },
@@ -180,7 +1420,10 @@
     "lessonNumber": 6,
     "title": "¿Maestra?",
     "vocabulary": [
-      { "front": "ejemplo", "back": "example" }
+      {
+        "front": "ejemplo",
+        "back": "example"
+      }
     ]
   }
 }
