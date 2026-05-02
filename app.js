@@ -61,179 +61,39 @@ const lessonCatalog = [
   { title: "Final", english: "Finale" },
 ];
 
-const lesson1Vocabulary = [
-  { id: "lesson-1-vocab-01", front: "perdóname", back: "forgive me" },
-  { id: "lesson-1-vocab-02", front: "una carta", back: "a letter" },
-  { id: "lesson-1-vocab-03", front: "nunca", back: "never" },
-  { id: "lesson-1-vocab-04", front: "¿su hermano?", back: "your brother?" },
-  { id: "lesson-1-vocab-05", front: "vive", back: "lives" },
-  { id: "lesson-1-vocab-06", front: "¿Fue largo el viaje?", back: "Was it a long trip?" },
-  { id: "lesson-1-vocab-07", front: "muy mal", back: "very bad / very ill" },
-  { id: "lesson-1-vocab-08", front: "Pasa.", back: "Come in." },
-  { id: "lesson-1-vocab-09", front: "Te estaba esperando.", back: "I was waiting for you." },
-  { id: "lesson-1-vocab-10", front: "Tus hijos están preocupados.", back: "Your children are worried." },
-  { id: "lesson-1-vocab-11", front: "la hacienda", back: "large house on a ranch" },
-  { id: "lesson-1-vocab-12", front: "los viejos amigos", back: "old friends" },
-  { id: "lesson-1-vocab-13", front: "un amigo viejo", back: "an elderly friend" },
-  { id: "lesson-1-vocab-14", front: "llamar", back: "to call" },
-  { id: "lesson-1-vocab-15", front: "el abogado / la abogada", back: "lawyer" },
-  { id: "lesson-1-vocab-16", front: "importante", back: "important" },
-  { id: "lesson-1-vocab-17", front: "el cliente / la clienta", back: "client" },
-  { id: "lesson-1-vocab-18", front: "el patriarca", back: "patriarch" },
-  { id: "lesson-1-vocab-19", front: "don", back: "male title of respect" },
-  { id: "lesson-1-vocab-20", front: "murió (morir)", back: "died (to die)" },
-  { id: "lesson-1-vocab-21", front: "muerta(o)", back: "dead" },
-  { id: "lesson-1-vocab-22", front: "afuera", back: "outside" },
-  { id: "lesson-1-vocab-23", front: "el símbolo", back: "the sign" },
-  { id: "lesson-1-vocab-24", front: "el secreto", back: "the secret" },
-];
+let lessons = [];
+let sections = [];
 
-const lesson2Vocabulary = [
-  { id: "lesson-2-vocab-01", front: "la noticia", back: "news" },
-  { id: "lesson-2-vocab-02", front: "veremos", back: "we will see" },
-  { id: "lesson-2-vocab-03", front: "mal", back: "bad" },
-  { id: "lesson-2-vocab-04", front: "la familia", back: "family" },
-  { id: "lesson-2-vocab-05", front: "estar muerto", back: "to be dead" },
-  { id: "lesson-2-vocab-06", front: "perdóname", back: "forgive me" },
-  { id: "lesson-2-vocab-07", front: "la mañana", back: "morning" },
-  { id: "lesson-2-vocab-08", front: "reparar", back: "to repair" },
-  { id: "lesson-2-vocab-09", front: "los miembros", back: "members" },
-  { id: "lesson-2-vocab-10", front: "los hijos", back: "sons, children" },
-  { id: "lesson-2-vocab-11", front: "las hijas", back: "daughters" },
-  { id: "lesson-2-vocab-12", front: "la carta", back: "letter" },
-  { id: "lesson-2-vocab-13", front: "el esposo", back: "husband" },
-  { id: "lesson-2-vocab-14", front: "la esposa", back: "wife" },
-  { id: "lesson-2-vocab-15", front: "un misterio", back: "a mystery" },
-  { id: "lesson-2-vocab-16", front: "correcto", back: "correct" },
-  { id: "lesson-2-vocab-17", front: "la ciudad", back: "city" },
-  { id: "lesson-2-vocab-18", front: "una canción", back: "a song" },
-  { id: "lesson-2-vocab-19", front: "la telaraña", back: "spider web" },
-  { id: "lesson-2-vocab-20", front: "columpiarse", back: "to swing" },
-  { id: "lesson-2-vocab-21", front: "los tíos", back: "uncles, uncles and aunts" },
-  { id: "lesson-2-vocab-22", front: "la visita", back: "visitor, visit" },
-  { id: "lesson-2-vocab-23", front: "suéltame", back: "let go of me" },
-  { id: "lesson-2-vocab-24", front: "atentamente", back: "attentively" },
-  { id: "lesson-2-vocab-25", front: "la amistad", back: "friendship" },
-  { id: "lesson-2-vocab-26", front: "consistir en", back: "to consist of" },
-];
+async function loadVocabularyData() {
+  try {
+    const response = await fetch('./vocabulary.json', { cache: 'no-store' });
+    if (!response.ok) {
+      throw new Error(`Failed to load vocabulary.json: ${response.status}`);
+    }
+    return await response.json();
+  } catch {
+    return { lessons: {} };
+  }
+}
 
-const lesson3Vocabulary = [
-  { id: "lesson-3-vocab-01", front: "las llaves", back: "keys" },
-  { id: "lesson-3-vocab-02", front: "la búsqueda", back: "search" },
-  { id: "lesson-3-vocab-03", front: "la espera", back: "wait" },
-  { id: "lesson-3-vocab-04", front: "hablar", back: "to speak" },
-  { id: "lesson-3-vocab-05", front: "el tiempo", back: "time" },
-  { id: "lesson-3-vocab-06", front: "la suegra", back: "mother-in-law" },
-  { id: "lesson-3-vocab-07", front: "fascinante", back: "fascinating" },
-  { id: "lesson-3-vocab-08", front: "el barrio", back: "neighborhood" },
-  { id: "lesson-3-vocab-09", front: "pagar", back: "to pay" },
-  { id: "lesson-3-vocab-10", front: "contestar", back: "to answer" },
-  { id: "lesson-3-vocab-11", front: "conozco", back: "I know, I'm acquainted with" },
-  { id: "lesson-3-vocab-12", front: "conocer", back: "to know, to be acquainted" },
-  { id: "lesson-3-vocab-13", front: "vivir", back: "to live" },
-  { id: "lesson-3-vocab-14", front: "la única", back: "the only one" },
-  { id: "lesson-3-vocab-15", front: "la curiosidad", back: "curiosity" },
-  { id: "lesson-3-vocab-16", front: "pronto", back: "soon" },
-  { id: "lesson-3-vocab-17", front: "la estatua", back: "statue" },
-  { id: "lesson-3-vocab-18", front: "la cofradía", back: "brotherhood" },
-  { id: "lesson-3-vocab-19", front: "la Semana Santa", back: "Holy Week" },
-  { id: "lesson-3-vocab-20", front: "emocionante", back: "touching, exciting" },
-  { id: "lesson-3-vocab-21", front: "el mercado", back: "market, marketplace" },
-  { id: "lesson-3-vocab-22", front: "la barbería", back: "barber’s shop" },
-  { id: "lesson-3-vocab-23", front: "el puente", back: "bridge" },
-  { id: "lesson-3-vocab-24", front: "la calle", back: "street" },
-  { id: "lesson-3-vocab-25", front: "los pajaritos", back: "little birds" },
-  { id: "lesson-3-vocab-26", front: "nacer", back: "to be born" },
-  { id: "lesson-3-vocab-27", front: "preciosa/o", back: "beautiful" },
-  { id: "lesson-3-vocab-28", front: "la cultura", back: "culture" },
-  { id: "lesson-3-vocab-29", front: "el país", back: "country" },
-];
+function buildExternalVocabularyCards(lessonNumber, lessonData) {
+  return (lessonData?.vocabulary ?? []).map((entry, index) => ({
+    id: `lesson-${lessonNumber}-vocab-${String(index + 1).padStart(2, '0')}`,
+    front: entry.front,
+    back: entry.back,
+  }));
+}
 
-const lesson4Vocabulary = [
-  { id: "lesson-4-vocab-1", front: "las ciencias naturales", back: "natural sciences" },
-  { id: "lesson-4-vocab-2", front: "la educación física", back: "physical education" },
-  { id: "lesson-4-vocab-3", front: "nunca", back: "never" },
-  { id: "lesson-4-vocab-4", front: "jamás", back: "never" },
-  { id: "lesson-4-vocab-5", front: "el jerez (el vino fino)", back: "sherry wine (fine wine)" },
-  { id: "lesson-4-vocab-6", front: "pasado mañana", back: "the day after tomorrow" },
-  { id: "lesson-4-vocab-7", front: "el guía turístico", back: "the tourist guide" },
-  { id: "lesson-4-vocab-8", front: "la aceituna", back: "olive" },
-  { id: "lesson-4-vocab-9", front: "sobresaliente", back: "outstanding" },
-  { id: "lesson-4-vocab-10", front: "notable", back: "notable" },
-  { id: "lesson-4-vocab-11", front: "suficiente", back: "sufficient" },
-  { id: "lesson-4-vocab-12", front: "insuficiente", back: "insufficient" },
-  { id: "lesson-4-vocab-13", front: "deficiente", back: "deficient, failing" },
-  { id: "lesson-4-vocab-14", front: "la habitación", back: "room" },
-  { id: "lesson-4-vocab-15", front: "disfrutes", back: "(may you) enjoy" },
-  { id: "lesson-4-vocab-16", front: "disfrutar", back: "to enjoy" },
-  { id: "lesson-4-vocab-17", front: "la estancia", back: "stay" },
-  { id: "lesson-4-vocab-18", front: "el mensaje", back: "message" },
-  { id: "lesson-4-vocab-19", front: "el placer", back: "pleasure" },
-  { id: "lesson-4-vocab-20", front: "la materia (colegio)", back: "subject (school)" },
-  { id: "lesson-4-vocab-21", front: "el grado (colegio)", back: "grade (school)" },
-  { id: "lesson-4-vocab-22", front: "el loro", back: "parrot" },
-  { id: "lesson-4-vocab-23", front: "la tortuga", back: "turtle" },
-  { id: "lesson-4-vocab-24", front: "el gato", back: "cat" },
-  { id: "lesson-4-vocab-25", front: "tropical", back: "tropical" },
-  { id: "lesson-4-vocab-26", front: "la recomendación", back: "recommendation" },
-  { id: "lesson-4-vocab-27", front: "la asignatura", back: "subject / course of study" },
-  { id: "lesson-4-vocab-28", front: "favorita(o)", back: "favorite" },
-  { id: "lesson-4-vocab-29", front: "el tren", back: "train" },
-];
-
-const lesson5Vocabulary = [
-  { id: "lesson-5-vocab-1", front: "la catedral", back: "cathedral" },
-  { id: "lesson-5-vocab-2", front: "desierto/a", back: "deserted" },
-  { id: "lesson-5-vocab-3", front: "también", back: "also" },
-  { id: "lesson-5-vocab-4", front: "allí", back: "there" },
-  { id: "lesson-5-vocab-5", front: "viven", back: "they live" },
-  { id: "lesson-5-vocab-6", front: "histórico", back: "historic" },
-  { id: "lesson-5-vocab-7", front: "la calle", back: "street" },
-  { id: "lesson-5-vocab-8", front: "la estación", back: "station" },
-  { id: "lesson-5-vocab-9", front: "(el) lunes", back: "Monday" },
-  { id: "lesson-5-vocab-10", front: "tienen que ir", back: "you have to go" },
-  { id: "lesson-5-vocab-11", front: "la época árabe", back: "the Arabic (Moorish) period" },
-  { id: "lesson-5-vocab-12", front: "correr", back: "to run" },
-  { id: "lesson-5-vocab-13", front: "(el) jueves", back: "Thursday" },
-  { id: "lesson-5-vocab-14", front: "(el) domingo", back: "Sunday" },
-  { id: "lesson-5-vocab-15", front: "durmiendo", back: "sleeping" },
-  { id: "lesson-5-vocab-16", front: "buena suerte", back: "good luck" },
-  { id: "lesson-5-vocab-17", front: "¿cuántos?", back: "how many?" },
-  { id: "lesson-5-vocab-18", front: "este", back: "this" },
-  { id: "lesson-5-vocab-19", front: "que yo vaya, que usted vaya", back: "that I go, that you go" },
-  { id: "lesson-5-vocab-20", front: "escapar", back: "to escape" },
-  { id: "lesson-5-vocab-21", front: "¿has visto?", back: "have you seen?" },
-  { id: "lesson-5-vocab-22", front: "alto", back: "tall" },
-  { id: "lesson-5-vocab-23", front: "decir", back: "to say" },
-  { id: "lesson-5-vocab-24", front: "de la mañana", back: "in the morning (a.m.)" },
-  { id: "lesson-5-vocab-25", front: "perder", back: "to lose" },
-  { id: "lesson-5-vocab-26", front: "el siguiente", back: "the following" },
-  { id: "lesson-5-vocab-27", front: "(el) martes", back: "Tuesday" },
-  { id: "lesson-5-vocab-28", front: "el ruido", back: "noise" },
-  { id: "lesson-5-vocab-29", front: "busquemos", back: "let’s look for" },
-  { id: "lesson-5-vocab-30", front: "(el) miércoles", back: "Wednesday" },
-  { id: "lesson-5-vocab-31", front: "(el) sábado", back: "Saturday" },
-  { id: "lesson-5-vocab-32", front: "el nombre", back: "name" },
-  { id: "lesson-5-vocab-33", front: "el perro, el perrito", back: "dog, little dog" },
-  { id: "lesson-5-vocab-34", front: "las once y media", back: "eleven thirty" },
-  { id: "lesson-5-vocab-35", front: "vale", back: "okay" },
-  { id: "lesson-5-vocab-36", front: "los Estados Unidos", back: "USA" },
-  { id: "lesson-5-vocab-37", front: "personalmente", back: "personally" },
-  { id: "lesson-5-vocab-38", front: "el ciego", back: "blind man" },
-  { id: "lesson-5-vocab-39", front: "la lotería", back: "lottery" },
-  { id: "lesson-5-vocab-40", front: "el futuro", back: "future" },
-  { id: "lesson-5-vocab-41", front: "negro", back: "black" },
-  { id: "lesson-5-vocab-42", front: "amistoso", back: "friendly" },
-];
-
-
-const customLessonContent = {
-  1: { flashcards: lesson1Vocabulary },
-  2: { flashcards: lesson2Vocabulary },
-  3: { flashcards: lesson3Vocabulary },
-  4: { flashcards: lesson4Vocabulary },
-  5: { flashcards: lesson5Vocabulary },
-};
+function buildDefaultFlashcards(entry, number, section) {
+  return [
+    { id: `l${number}-1`, front: entry.title, back: entry.english },
+    { id: `l${number}-2`, front: `Lección ${number}`, back: `Lesson ${number}` },
+    { id: `l${number}-3`, front: section.place, back: section.place },
+    { id: `l${number}-4`, front: 'Estoy estudiando.', back: 'I am studying.' },
+    { id: `l${number}-5`, front: '¿Cómo se dice?', back: 'How do you say it?' },
+    { id: `l${number}-6`, front: 'repasar', back: 'to review' },
+  ];
+}
 
 const app = document.querySelector("#app");
 const STUDY_PROGRESS_STORAGE_KEY = "destinos-study-progress-v1";
@@ -708,44 +568,47 @@ function getSectionForLesson(lessonNumber) {
 }
 
 function buildQuizData(lesson, flashcards) {
-  return flashcards.map((card) => {
-    return {
-      prompt: card.front,
-      answer: card.back,
-      options: buildQuestionOptionsFromFlashcards(flashcards, card),
-    };
-  });
+  return flashcards.map((card) => ({
+    prompt: card.front,
+    answer: card.back,
+    options: buildQuestionOptionsFromFlashcards(flashcards, card),
+  }));
 }
 
-customLessonContent[1].quizData = buildQuizData(
-  { title: "La carta", number: 1 },
-  customLessonContent[1].flashcards,
-);
+function buildCustomLessonContent(vocabularyData) {
+  const content = {};
+  const sourceLessons = vocabularyData?.lessons ?? {};
 
-customLessonContent[2].quizData = buildQuizData(
-  { title: "El secreto", number: 2 },
-  customLessonContent[2].flashcards,
-);
+  Object.entries(sourceLessons).forEach(([lessonKey, lessonData]) => {
+    const lessonNumber = Number(lessonKey);
+    if (!Number.isFinite(lessonNumber)) {
+      return;
+    }
 
-function buildLessonData(entry, index) {
+    const flashcards = buildExternalVocabularyCards(lessonNumber, lessonData);
+    content[lessonNumber] = {
+      title: lessonData.title,
+      flashcards,
+      quizData: buildQuizData(
+        { title: lessonData.title, number: lessonNumber },
+        flashcards,
+      ),
+    };
+  });
+
+  return content;
+}
+
+function buildLessonData(entry, index, customLessonContent) {
   const number = index + 1;
   const section = getSectionForLesson(number);
   const custom = customLessonContent[number];
-  const flashcards =
-    custom?.flashcards ??
-    [
-      { id: `l${number}-1`, front: entry.title, back: entry.english },
-      { id: `l${number}-2`, front: `Lección ${number}`, back: `Lesson ${number}` },
-      { id: `l${number}-3`, front: section.place, back: section.place },
-      { id: `l${number}-4`, front: "Estoy estudiando.", back: "I am studying." },
-      { id: `l${number}-5`, front: "¿Cómo se dice?", back: "How do you say it?" },
-      { id: `l${number}-6`, front: "repasar", back: "to review" },
-    ];
+  const flashcards = custom?.flashcards ?? buildDefaultFlashcards(entry, number, section);
 
   return {
     id: `lesson-${number}`,
     number,
-    title: entry.title,
+    title: custom?.title ?? entry.title,
     english: entry.english,
     section,
     sectionId: section.id,
@@ -754,12 +617,14 @@ function buildLessonData(entry, index) {
   };
 }
 
-const lessons = lessonCatalog.map(buildLessonData);
-
-const sections = sectionDefinitions.map((section) => ({
-  ...section,
-  lessons: lessons.filter((lesson) => lesson.sectionId === section.id),
-}));
+function buildLessonCollections(vocabularyData) {
+  const customLessonContent = buildCustomLessonContent(vocabularyData);
+  lessons = lessonCatalog.map((entry, index) => buildLessonData(entry, index, customLessonContent));
+  sections = sectionDefinitions.map((section) => ({
+    ...section,
+    lessons: lessons.filter((lesson) => lesson.sectionId === section.id),
+  }));
+}
 
 function navigateTo(hash) {
   window.location.hash = hash;
@@ -1587,8 +1452,23 @@ document.addEventListener("click", (event) => {
 
 window.addEventListener("hashchange", renderApp);
 
-if (!window.location.hash) {
-  navigateTo("/");
-} else {
-  renderApp();
+async function initializeApp() {
+  app.innerHTML = `
+    <main class="min-h-screen bg-white">
+      <div class="mx-auto flex min-h-screen w-full max-w-6xl items-center justify-center px-4 py-6 sm:px-6">
+        <p class="text-sm font-medium text-muted">Loading vocabulary…</p>
+      </div>
+    </main>
+  `;
+
+  const vocabularyData = await loadVocabularyData();
+  buildLessonCollections(vocabularyData);
+
+  if (!window.location.hash) {
+    navigateTo("/");
+  } else {
+    renderApp();
+  }
 }
+
+initializeApp();
